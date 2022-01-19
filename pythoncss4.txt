@@ -9,3 +9,4 @@ if ch[0].lower() in vowel:
     print('YES')
 else:
     print('NO')
+git commit -m <message>
