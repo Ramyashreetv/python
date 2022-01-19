@@ -1,0 +1,11 @@
+import ast,sys
+input_str = sys.stdin.read()
+
+#Write your code here
+#Use capital YES or NO
+ch=input_str
+vowel = 'aeiou'
+if ch[0].lower() in vowel:
+    print('YES')
+else:
+    print('NO')
